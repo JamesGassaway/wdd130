@@ -1,0 +1,45 @@
+body {
+    background-color: #fca6c9;
+}
+
+#content {
+    max-width: 350px;
+    /*background-color: beige;*/
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+h1:hover {
+    color: white;
+}
+
+h4 {
+    color: white;
+    font-size: .875em;
+}
+
+h3 {
+    color: white;
+    font-weight: bold;
+}
+
+ol {
+    font-weight: bold;
+}
+
+img {
+    width: 150px;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+}
