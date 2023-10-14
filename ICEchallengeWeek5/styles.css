@@ -1,0 +1,15 @@
+#headingpict {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#content {
+    margin: 0px;
+    padding: 0px;
+    background-color: #737373;
+}
+
+.circles {
+    width: 80px;
+}
