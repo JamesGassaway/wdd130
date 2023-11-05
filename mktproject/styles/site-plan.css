@@ -99,6 +99,10 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 
+.banner {
+  width: 100%;
+}
+
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
