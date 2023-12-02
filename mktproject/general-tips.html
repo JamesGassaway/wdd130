@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mario Kart Tour Guide</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
-        <a  href="index.html" id="MKTGLogo">
+        <a  href="index.html" id="mktg-logo">
             <img class="logo" src="images/MKTGLogo.png" alt="MKTG Logo">
         </a>
         <nav>
@@ -22,21 +23,29 @@
             Getting Cool Stuff
         </h1>
         <h4>The unlockable items in Mario Kart Tour fall into one of three categories:</h4>
-        <p>Characters</p>
-        <img src="images/MKT_Artwork_RedToadPitCrew.png" alt="Drivers"> 
-        <p>Karts</p>
-        <img src="images/MKT_Icon_PipeFrameRed.webp" alt="Karts">
-        <p>Gliders</p>
-        <img src="images/MKT_Icon_SuperGliderRed.png" alt="Gliders">
+        <div id="ckg-grid">
+            <section class="ckg-characters-card">
+                <p>Characters</p>
+                <img src="images/MKT_Artwork_RedToadPitCrew.png" alt="Drivers">
+            </section>
+            <section class="ckg-karts-card">
+                <p>Karts</p>
+                <img src="images/MKT_Icon_PipeFrameRed.webp" alt="Karts">
+            </section>
+            <section class="ckg-gliders-card">
+                <p>Gliders</p>
+                <img src="images/MKT_Icon_SuperGliderRed.png" alt="Gliders">
+            </section>
+        </div>
         <h4>You’ll start out with the majority of these items locked. There are many ways to unlock these items, such as:</h4>
-        <ul>
-            <li>Finding them in Tour Gifts</li>
-            <li>Firing items out of Tour Pipes</li>
-            <li>Placing well in Ranked Competitions</li>
-            <li>Completing Challenges</li>
-            <li>Purchasing them in the various shops with coins, rubies or tokens</li>
-            <li>Purchasing them with real money as microtransactions</li>
-        </ul>
+            <ul>
+                <li>Finding them in Tour Gifts</li>
+                <li>Firing items out of Tour Pipes</li>
+                <li>Placing well in Ranked Competitions</li>
+                <li>Completing Challenges</li>
+                <li>Purchasing them in the various shops with coins, rubies or tokens</li>
+                <li>Purchasing them with real money as microtransactions</li>
+            </ul>
         <h4>Rarity</h4>
         <p>	Keep in mind that an item’s rarity affects how hard it is to obtain that item. For instance, High-end Drivers are harder to get than a Super Driver. A Super Driver is harder to get than a Normal Driver. Rarity also affects other things as well:</p>
         <ul>
@@ -60,7 +69,6 @@
     </main>
     <footer>
         <p>Mario Kart Tour Guide &copy; 2023 - James Gassaway</p>
-        <p><a href="site-plan-MKTG.html">Site Plan</a></p>
         <p>All Images were pulled from mariowiki.com</p>
         <div class="social">
             <a href="#" target="_blank">Back to Top</a>

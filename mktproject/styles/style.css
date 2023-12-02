@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
 
+/*CSS for the header*/
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -149,4 +150,41 @@ footer {
 
 footer a{
     text-decoration: none;
+}
+
+/*CSS for the general tips page*/
+
+#ckg-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+
+.ckg-characters-card {
+    grid-column: 2/4;
+}
+
+
+.ckg-karts-card {
+    grid-column: 5/7;
+}
+
+
+.ckg-gliders-card {
+    grid-column: 8/10;
+}
+
+
+.ckg-characters-card img, .ckg-gliders-card img, .ckg-karts-card img {
+    width: 100%;
+}
+
+.ckg-characters-card p, .ckg-gliders-card p, .ckg-karts-card p {
+    text-align: center;
+}
+
+.ckg-characters-card img {
+    height: 250px;
+    width: auto;
+    padding: 0 45px;
 }
