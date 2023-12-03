@@ -177,6 +177,9 @@ footer a{
 
 .ckg-characters-card img, .ckg-gliders-card img, .ckg-karts-card img {
     width: 100%;
+    border: 10px solid #F7314A;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .ckg-characters-card p, .ckg-gliders-card p, .ckg-karts-card p {
@@ -187,4 +190,62 @@ footer a{
     height: 250px;
     width: auto;
     padding: 0 45px;
+}
+
+#home-card {
+    background-color: #949595;
+    line-height: 1.5em;
+    padding: 50px;
+}
+
+.end-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    background-color: #949595;
+    line-height: 1.5em;
+    padding-bottom: 50px;
+}
+
+.left-button {
+    grid-column: 2/5;
+}
+
+.right-button {
+    grid-column: 6/9;
+}
+
+.left-button, .right-button {
+    text-align: center;
+    background-color: #F7314A;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.red-title {
+    color: #F7314A;
+}
+
+.center-text {
+    text-align: center;
+}
+
+#gt-toad-img {
+    float: right;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#gt-rubies-img {
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.banner-div {
+    background-color:#F7314A;
+    margin: 50px auto;
+    padding: 50px;
 }
