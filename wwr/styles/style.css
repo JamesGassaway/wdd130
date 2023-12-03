@@ -295,9 +295,9 @@ footer .social img {
     padding: 18px;
     width: 100%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
-    font-size: 15px;
+    font-size: 30px;
     transition: 0.4s;
   }
   
@@ -318,7 +318,7 @@ footer .social img {
   }
   
 .panel {
-    padding: 0 18px;
+    padding: 0 50px;
     background-color: white;
     max-height: 0;
     overflow: hidden;
