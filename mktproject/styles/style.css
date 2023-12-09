@@ -45,7 +45,7 @@ nav a:hover {
     grid-column: 1/2;
 }
 
-#banner-img {
+.banner-img {
     width: 100%;
 }
 
@@ -137,12 +137,15 @@ h2 {
     text-decoration: none;
 }
 
+.white-title {
+    color: #FFF;
+}
 
 footer {
     background-color: #949595;
     color: #000000;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -153,6 +156,10 @@ footer a{
 }
 
 /*CSS for the general tips page*/
+
+.top-header {
+    margin: 200px;
+}
 
 #ckg-grid {
     display: grid;
@@ -201,7 +208,7 @@ footer a{
 .end-grid {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    background-color: #949595;
+    background-color: #49CCCC;
     line-height: 1.5em;
     padding-bottom: 50px;
 }
@@ -226,6 +233,7 @@ footer a{
 
 .red-title {
     color: #F7314A;
+    margin: 50px;
 }
 
 .center-text {
@@ -248,4 +256,61 @@ footer a{
     background-color:#F7314A;
     margin: 50px auto;
     padding: 50px;
+}
+
+/*Getting High Scores Subpage*/
+
+.ghs-p {
+    margin-bottom: 50px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+    transition: 0.4s;
+  }
+  
+.active, .accordion:hover {
+    background-color: #ccc;
+  }
+  
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+.active:after {
+    content: "\2212";
+  }
+  
+.panel {
+    padding: 0 50px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.rw-title, .bw-title {
+    color: #FFF;
+    margin: 0;
+    padding: 20px;
+}
+
+.rw-title {
+    background-color: #F7314A;
+}
+
+.bw-title {
+    background-color: #49CCCC;
 }
