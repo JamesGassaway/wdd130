@@ -95,6 +95,7 @@ h2 {
 #home-card {
     background-color: #949595;
     line-height: 1.5em;
+    margin-top: 50px;
     padding: 50px;
 }
 
@@ -153,6 +154,11 @@ footer {
 
 footer a{
     text-decoration: none;
+    background-color: #49CCCC;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 /*CSS for the general tips page*/
@@ -258,6 +264,9 @@ footer a{
     padding: 50px;
 }
 
+.banner-div p, .banner-div ul {
+    color: white;
+}
 /*Getting High Scores Subpage*/
 
 .ghs-p {
